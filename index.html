@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profiles</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Hiệu ứng nền đổi màu liên tục */
+        @keyframes backgroundAnimation {
+            0% { background-color: rgb(54, 54, 54); }  /* Màu tối */
+            50% { background-color: #868585; } /* Màu trung tính */
+            100% { background-color: #2e2e2e; } /* Quay lại tối */
+        }
+        body {
+            animation: backgroundAnimation 5s infinite alternate ease-in-out;
+        }
+    </style>
+</head>
+<body class="flex flex-col items-center justify-center min-h-screen text-gray-900 transition-all duration-500">
+
+
+    <!-- Card Container -->
+    <div class="bg-white p-6 rounded-xl shadow-xl w-80 text-center">
+        <h2 class="text-xl font-semibold text-gray-700 mb-4">My </h2>
+        
+        <!-- GitHub -->
+        <a href="https://bunbohue226.github.io/wheel/" 
+           class="block bg-black text-white py-3 rounded-lg shadow-md transition transform hover:scale-110 hover:bg-gray-800 mb-3">
+           radmon wheel 🛞
+        </a>
+
+        <a href="https://bunbohue226.github.io/draw/" 
+        class="block bg-black text-white py-3 rounded-lg shadow-md transition transform hover:scale-110 hover:bg-gray-800 mb-3">
+        paint 🎨🖌️
+     </a>
+
+     <a href="https://bunbohue226.github.io/c/" 
+     class="block bg-black text-white py-3 rounded-lg shadow-md transition transform hover:scale-110 hover:bg-gray-800 mb-3">
+     sceret 🔒
+  </a>
+
+  <a href="https://github.com/Bunbohue226" 
+  class="block bg-black text-white py-3 rounded-lg shadow-md transition transform hover:scale-110 hover:bg-gray-800 mb-3">
+  comming soon...
+</a>
+       
+    </div>
+
+</body>
+</html>
